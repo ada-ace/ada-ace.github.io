@@ -1,0 +1,23 @@
+# Site settings
+title:       'Ada Advanced Coding for Embedded'
+email:
+description: 'Community Site'
+url:         'https://ada-ace.github.io'
+baseurl:
+twitter_username:
+github_username:  jquorning
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+lsi: false
+safe: true
+source: [your repo's top level directory]
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
